@@ -10,7 +10,7 @@ pipeline {
         stage('git') {
             steps {
                 echo 'clonning Repository'
-                git branch: 'main', url: 'https://github.com/mnagen/spring-petclinic.git'
+                git branch: 'main', url: 'https://github.com/Ajith8790/hello-world.git'
                 
                 echo 'Repo clone successfully'
             }
